@@ -28,7 +28,7 @@ $sql = "SELECT * FROM users WHERE db_username='$uname' AND db_password='$pass'";
 
 $result = mysqli_query($conn, $sql);
 
-if(mysql_nom_rows($result) === 1){
+if(mysqli_num_rows($result) === 1){
   $row = mysqli_fetch_assoc($result);
   if($row['db_username'] === $uname && $row['db_password'] === $pass){ 
     echo "Logged In!";

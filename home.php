@@ -3,7 +3,7 @@ session_start();
 
 if(isset($_SESSION['id']) && isset($_SESSION['db_username'])) {
   ?>
-  !<!DOCTYPE html>
+  <!DOCTYPE html>
   <html>
     <head>
       <meta charset="utf-8">
