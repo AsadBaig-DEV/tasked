@@ -60,7 +60,7 @@
                       </div>
 
                       <div class="pt-1 mb-4 col-md-12">
-                        <button class="btn btn-dark btn-md btn-block" type="submit">Sign</button>
+                        <button class="btn btn-dark btn-md btn-block" type="submit">Sign Up</button>
                         <a class="btn btn-primary btn-md btn-block" type="button" href="index.php">Login Instead?</a>
                       </div>
                     </div>
